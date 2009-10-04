@@ -1,0 +1,10 @@
+
+bind ^a windowlist -b
+defscrollback 64000
+autodetach off
+deflogin on
+startup_message off
+vbell off
+hardstatus alwayslastline "%-Lw%{+u wk}%50>%n%f* %t%{-}%+Lw%<"
+hardstatus on
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
